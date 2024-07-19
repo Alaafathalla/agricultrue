@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.slider{
-    height:90vh;
+.slider {
+    height: 90vh;
 }
 .carousel-caption {
     height: 60%;
@@ -19,41 +19,59 @@
 .carousel-caption p {
     font-size: 1.25rem;
 }
-.label h3{
+.label h3 {
     color: green;
 }
-.services i{
-    font-size: 3rem; 
+.services i {
+    font-size: 3rem;
     margin-bottom: 1rem;
-    color:green;
+    color: green;
 }
-.services .item{
-  border: .2px solid rgb(231, 228, 228);
+.services .item {
+    border: .2px solid rgb(231, 228, 228);
 }
-.services p{
-  color:  rgb(231, 228, 228)
+.services p {
+    color: rgb(231, 228, 228);
 }
 .blog {
     background-color: #116530;
-    color:white;
+    color: white;
     margin-top: 5rem;
-}
-.blog-row {
-    padding: 20px;
-  }
-  
-  .blog-img {
-    object-fit: cover;
-   bottom:70px;
-  }
-  .icons{
-    padding: 50px;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
-  }
-  @media (max-width: 767.98px) {
-    .blog {
-      position: fixed !important;
-    }
+    position: absolute;
+}
+
 .blog-img{
-    position: fixed !important;
-}}
+    height:100vh;
+    position: relative;
+    bottom: 7rem;
+}
+.icons p,
+.label2 {
+    color: white;
+    opacity: .5;  
+}
+.blogh2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.icon{
+   font-size: 2.5rem;
+   margin-right: 1.5rem;
+}
+@media screen and (max-width:950px) {
+    .blog {
+        position: unset;
+    }
+    .blog-img {
+        position: unset;
+        height: 90vh;
+    }
+}
+
+    
+
+
