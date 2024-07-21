@@ -40,29 +40,32 @@
     padding-top: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
-
-    position: absolute;
+    /* position: absolute; */
 }
-
-.blog-img{
-    height:100vh;
-    position: relative;
-    bottom: 7rem;
+.blog-img {
+    height: 100vh;
+    /* position: relative;
+    bottom: 7rem; */
+    margin-top: -8rem;
+    padding-bottom: 5rem;
 }
 .icons p,
 .label2 {
     color: white;
     opacity: .5;  
 }
-.blogh2{
+.blogh2 {
     font-size: 2rem;
     font-weight: 400;
 }
-.icon{
+.icon {
    font-size: 2.5rem;
    margin-right: 1.5rem;
 }
-@media screen and (max-width:950px) {
+.hhh {
+    padding: 3rem 0;
+}
+/* @media screen and (max-width: 950px) {
     .blog {
         position: unset;
     }
@@ -70,8 +73,55 @@
         position: unset;
         height: 90vh;
     }
+} */
+.touch{
+    padding: 5.5rem;
 }
+.blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  
+.touch .btn{
+    width: 8.5rem;
+    height: 3rem;
+background-color: #116530;
+color: white;
+padding: 12px;
+}
+.touch h3,
+.touch i{
+    color: #116530;
+}
+.touch h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+  
+.slider2{
+    background-color: black;
+    height: 60vh;
+    color: white;
+}
+.slider2 .text{
+    font-size: 1.5rem;
+}
+.text h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.slider3 img{
+   width:400px;
+   background-color: black;
 
-    
-
+   
+}
+     
+.slider3 img:hover{
+   background-color: rgb(162, 156, 156);
+   width:400px;
+   height: auto;
+}
 

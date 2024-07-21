@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="OwlCarousel2-2.3.4/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 
 <body>
@@ -98,7 +99,7 @@
       <div class="carousel-item">
         <img src="images/hero_4.jpg" class="d-block w-100 slider" alt="Slide 4">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Farming as a Passione</h1>
+          <h1>Farming as a Passion</h1>
           <p>Some representative placeholder content for the fourth slide.</p>
         </div>
       </div>
@@ -181,20 +182,20 @@
     </div>
   </div>
   <!-- =================================== -->
-   <div class="blog">
-    <div class="container ">
-  
-      <div class="row ">
-        <div class="col-12 col-md-5 ">
+  <div class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5">
           <div class="div">
-            <img src="images/img_sq_5.jpg" class="blog-img w-100 " alt="">
+            <img src="images/img_long_5.jpg" class="blog-img w-100" alt="">
           </div>
         </div>
-        <div class=" col-12 col-md-7 icons">
+        <div class="col-12 col-md-7 icons">
           <div class="div px-5">
             <h4 class="fw-light label2">WHY CHOOSE US</h4>
             <h2 class="blogh2">More than 50 years experience in agriculture industry</h2>
-            <p class="my-4">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis error
+            <p class="my-4">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum
+              perspiciatis error
               consequatur sit nulla.</p>
             <div class="my-3">
               <i class="fa-solid fa-cloud-showers-heavy d-inline-block icon"></i>
@@ -222,14 +223,90 @@
       </div>
     </div>
   </div>
-  </div>
   <!-- ================================================================================= -->
+  <div>
+    <div class="container-fluid">
+      <div class="row touch d-flex">
+        <div class="col-12 col-md-6 d-flex align-items-center">
+          <div class="div blog2">
+            <h3>Plants Make Life Better</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus placeat, atque qui
+              voluptatem velit explicabo vitae repellendus architecto provident nisi ullam minus asperiores commodi!
+              Tenetur, repellat aliquam nihil illo.</p>
+            <div class="div">
+              <i class="fa-solid fa-check d-inline-block"></i>
+              <p class="d-inline-block">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="div">
+              <i class="fa-solid fa-check d-inline-block"></i>
+              <p class="d-inline-block">Velit explicabo vitae repellendu</p>
+            </div>
+            <div class="div">
+              <i class="fa-solid fa-check d-inline-block"></i>
+              <p class="d-inline-block">Repellat aliquam nihil illo</p>
+            </div>
+            <button type="button" class="btn ">GET IN TOUCH</button>
+          </div>
 
-  
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="div">
+            <img src="images/img_sq_1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================= -->
+  <div class="container-fluid slider2">
+    <div class="p-5 text">
+      <p class="opacity-50">SERVICES</p>
+      <h3>Necessitatibus eius consequatur</h3>
+    </div>
+    <div class="container m-5 slider4 ">
+      <div class="multiple-items slider3 ">
+        <div><img src="images/img_sq_1.jpg" alt="Image 1">
+          <div class="overlay"></div>
+        </div>
+        <div><img src="images/img_sq_3.jpg" alt="Image 2">
+          <div class="overlay"></div>
+        </div>
+        <div><img src="images/img_sq_4.jpg" alt="Image 3">
+          <div class="overlay"></div>
+        </div>
+        <div><img src="images/img_sq_5.jpg" alt="Image 4">
+          <div class="overlay"></div>
+        </div>
+        <div><img src="images/img_sq_6.jpg" alt="Image 5">
+          <div class="overlay"></div>
+        </div>
+        <div ><img src="images/img_sq_8.jpg" alt="Image 6">
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-  
-  <script src="bootstrap.bundle.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: true,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
