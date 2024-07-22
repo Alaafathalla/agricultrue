@@ -65,15 +65,7 @@
 .hhh {
     padding: 3rem 0;
 }
-/* @media screen and (max-width: 950px) {
-    .blog {
-        position: unset;
-    }
-    .blog-img {
-        position: unset;
-        height: 90vh;
-    }
-} */
+
 .touch{
     padding: 5.5rem;
 }
@@ -83,6 +75,14 @@
     justify-content: center;
     margin: auto;
   }
+
+  @media (max-width: 900px) {
+    
+    .touch img{
+        width: 99%;
+        padding-top: .7rem;
+    }
+}
   
 .touch .btn{
     width: 8.5rem;
@@ -118,10 +118,122 @@ padding: 12px;
 
    
 }
-     
-.slider3 img:hover{
-   background-color: rgb(162, 156, 156);
-   width:400px;
-   height: auto;
-}
 
+@media screen and (max-width: 1225px) {
+    .slider2 {
+      width: 80% !important; 
+    }
+    .slider2 img{
+        align-items: center;
+    }
+    .slider3 img{
+        width: 250px;
+    }
+  }
+  
+  .persons{
+    margin-top: 15rem;
+  }
+
+  .persons h4,
+  .persons h3,
+  .persons h2
+{
+font-size: 1.4rem;
+font-weight: 600;
+}
+.persons img{
+    border-radius:50% ;
+    width: 120px;
+}
+.persons p,
+.persons h2{
+    color: #116530;
+}
+.toblog img{
+    width:500px;
+    /* position: absolute; */
+}
+.cart{
+    width: 400px;
+    background-color: white;
+}
+.toblog .btn{
+    /* position: relative;
+    top: 263px;
+    left: 20rem; */
+
+}
+.container-fluid.toblog {
+    padding: 2rem;
+  }
+  
+  .card {
+    overflow: hidden;
+   
+  }
+  
+  .card img {
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-footer {
+    background-color: transparent;
+    border-top: none;
+  }
+  
+  .card-footer .readmore {
+    text-decoration: none;
+  }
+  
+  .row-cols-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .row-cols-1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .card .btn {
+    position: absolute;
+    bottom: 160px;
+    left: 91%;
+    transform: translateX(-50%);
+    border-radius: 0 !important;
+  }
+  @media (max-width: 1150px) {
+    .card .btn {
+        position: absolute;
+        bottom: 160px;
+        left: 80% !important;
+        transform: translateX(-50%);
+        border-radius: 0 !important;
+      }
+  }
+  @media (max-width: 768px) {
+    .row-cols-1 {
+      flex-direction: column;
+    }
+  
+    .card {
+      margin-bottom: 1rem;
+    }
+    .card img{
+        width: 700px;
+    }
+  }
+  
+  .footer1{
+    background-color: rgb(226, 232, 232);
+  }
